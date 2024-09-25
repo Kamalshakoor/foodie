@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import LogoImg from '../assets/logo.png'
+import LogoImg from '../../assets/logo.png'
 import classes from './main-header.module.css'
 
 const MainHeader = () => {
