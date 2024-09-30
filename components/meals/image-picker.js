@@ -30,7 +30,7 @@ const ImagePicker = ({ label, name }) => {
         <div className={classes.controls}>
           <div className={classes.preview}>
             {pickedImage ? (
-              <Image src={pickedImage} alt="preview" fill />
+              <Image src={pickedImage} alt="No image selected" fill />
             ) : (
               <>                <div className={classes.placeholder}>
                   <span>+</span>
